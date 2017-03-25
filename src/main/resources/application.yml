@@ -1,0 +1,10 @@
+server:
+  port: 8080
+  contextPath: /LDAPManager
+
+
+ldap:
+  url: ldap://centos.lxc:1389
+  admin_user: cn=Directory Manager
+  admin_psw: centosopendj
+  base:  dc=example,dc=com
